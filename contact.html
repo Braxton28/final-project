@@ -6,24 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+    </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap');
+    </style>
+    
     <title>Final Project</title>
+    <nav-class>
+        <a href="/index.html">
+            <img src="/img/Tiger Event Managent.png" alt="Tiger Event Logo">
+        </a>
+        <ul class="nav-right">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav-class>
 </head>
+<header>
+</header>
 <body>
-    <header>
-        <nav>
-            <a href="/index.html">
-                <img src="/img/Tiger Event Managent.png" alt="Tiger Event Logo">
-            </a>
-            <ul class="nav-right">
-                <li class="nav-item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First name">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last name">
+          <label for="country">Country</label>
+          <select id="country" name="country" placeholder="Country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="portugal">Portugal</option>
+            <option value="saudi arabia">Saudi Arabia</option>
+            <option value="spain">Spain</option>
+            <option value="sweden">Sweden</option>
+            <option value="norway">Norway</option>
+            <option value="slovakia">Slovakia</option>
+            <option value="the netherlands">The Netherlands</option>
+            <option value="finland">Finland</option>
+            <option value="denmark">Denmark</option>
+            <option value="united arab emirates">United Arab Emirates</option>
+            <option value="hungary">Hungary</option>
+          </select>     
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>  
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<footer>
+    <h1>Footer</h1>
+</footer>
+</html>

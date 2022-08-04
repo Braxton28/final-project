@@ -10,6 +10,10 @@ nav {
     display: inline-block;
     padding: 10px;
 }
+nav-class {
+    font-family: 'Playfair Display', serif;
+    display:inline-block
+}
 
 footer {
     background-color: orange;
@@ -36,3 +40,42 @@ aside img {
 .clearfix {
     clear: both;
 }
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input [type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e28f00;
+}
+
+.container {
+    border-radius: 3px;
+    background-color: #ececec;
+    padding: 15px;
+}
+
